@@ -102,7 +102,8 @@ DEPENDENCIES
 
 SEE ALSO
     Map::Tube, Map::Tube::Graph, Map::Tube::GraphViz,
-    Map::Tube::Plugin::Graph, Map::Tube::Text::Table, Task::Map::Tube.
+    Map::Tube::Plugin::FuzzyFind, Map::Tube::Plugin::Graph,
+    Map::Tube::Text::Table, Task::Map::Tube.
 
 REPOSITORY
     <https://github.com/tupinek/Map-Tube-Text-Shortest>
