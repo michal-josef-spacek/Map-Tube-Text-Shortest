@@ -12,6 +12,7 @@ use Readonly;
 use Scalar::Util qw(blessed);
 
 # Constants.
+Readonly::Scalar our $DOUBLE_SPACE => q{  };
 Readonly::Scalar our $EMPTY_STR => q{};
 
 # Version.
@@ -72,7 +73,13 @@ sub print {
 				$node->name;
 		}
 	}
-	# TODO Links of lines.
+	push @output, $EMPTY_STR;
+	# TODO Skip lines, which are not in route table.
+	foreach my $line (@{$self->{'tube'}->get_lines}) {
+		push @output, (
+			$line->id.$DOUBLE_SPACE.$line->name,
+		);
+	}
 	push @output, (
 		$EMPTY_STR,
 		'*: Transfer to other line',
