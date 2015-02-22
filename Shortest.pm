@@ -16,7 +16,7 @@ Readonly::Scalar our $DOUBLE_SPACE => q{  };
 Readonly::Scalar our $EMPTY_STR => q{};
 
 # Version.
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Constructor.
 sub new {
@@ -243,6 +243,6 @@ L<http://skim.cz>
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
