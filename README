@@ -17,7 +17,7 @@ METHODS
                      Parameter is required.
                      Default value is undef.
 
-    print($from, $to)>
+    "print($from, $to)"
              Print shortest route table.
              Returns string with table.
 

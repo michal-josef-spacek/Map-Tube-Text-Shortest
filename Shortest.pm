@@ -123,7 +123,7 @@ Map::Tube::Text::Shortest - Shortest route information via Map::Tube object.
 
 =back
 
-=item print($from, $to)>
+=item C<print($from, $to)>
 
  Print shortest route table.
  Returns string with table.
