@@ -218,13 +218,17 @@ L<Scalar::Util>.
 
 =head1 SEE ALSO
 
-L<Map::Tube>,
-L<Map::Tube::Graph>,
-L<Map::Tube::GraphViz>,
-L<Map::Tube::Plugin::FuzzyFind>,
-L<Map::Tube::Plugin::Graph>,
-L<Map::Tube::Text::Table>,
-L<Task::Map::Tube>.
+=over
+
+=item L<Task::Map::Tube>
+
+Install the Map::Tube modules.
+
+=item L<Task::Map::Tube::Metro>
+
+Install the Map::Tube concrete metro modules.
+
+=back
 
 =head1 REPOSITORY
 
