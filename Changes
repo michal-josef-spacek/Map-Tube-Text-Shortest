@@ -1,7 +1,7 @@
 0.02
  - Fix doc formatting.
  - Rewrite SEE ALSO section to new style.
- - Update Module::Install to 1.16 version.
+ - Update Module::Install to 1.18 version.
 
 0.01 2015-02-22T08:09:51+01:00
  - First version.
