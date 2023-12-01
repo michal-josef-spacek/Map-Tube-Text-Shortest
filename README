@@ -5,22 +5,31 @@ NAME
 SYNOPSIS
      use Map::Tube::Test::Shortest;
 
-     my $obj = Map::Tube::Text::Shortest->new;
+     my $obj = Map::Tube::Text::Shortest->new(%params);
      print $obj->print($from, $to);
 
 METHODS
-    "new()"
-             Constructor.
+  "new"
+     my $obj = Map::Tube::Text::Shortest->new(%params);
 
-            *       "tube"
+    Constructor.
 
-                     Map::Tube object.
-                     Parameter is required.
-                     Default value is undef.
+    *       "tube"
 
-    "print($from, $to)"
-             Print shortest route table.
-             Returns string with table.
+            Map::Tube object.
+
+            Parameter is required.
+
+            Default value is undef.
+
+    Returns instance of object.
+
+  "print"
+     print $obj->print($from, $to);
+
+    Print shortest route table.
+
+    Returns string with table.
 
 ERRORS
      new():

@@ -100,33 +100,38 @@ Map::Tube::Text::Shortest - Shortest route information via Map::Tube object.
 
  use Map::Tube::Test::Shortest;
 
- my $obj = Map::Tube::Text::Shortest->new;
+ my $obj = Map::Tube::Text::Shortest->new(%params);
  print $obj->print($from, $to);
 
 =head1 METHODS
 
-=over 8
+=head2 C<new>
 
-=item C<new()>
+ my $obj = Map::Tube::Text::Shortest->new(%params);
 
- Constructor.
+Constructor.
 
 =over 8
 
 =item * C<tube>
 
- Map::Tube object.
- Parameter is required.
- Default value is undef.
+Map::Tube object.
+
+Parameter is required.
+
+Default value is undef.
 
 =back
 
-=item C<print($from, $to)>
+Returns instance of object.
 
- Print shortest route table.
- Returns string with table.
+=head2 C<print>
 
-=back
+ print $obj->print($from, $to);
+
+Print shortest route table.
+
+Returns string with table.
 
 =head1 ERRORS
 
