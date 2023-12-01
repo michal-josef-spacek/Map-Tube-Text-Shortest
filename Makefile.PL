@@ -26,6 +26,8 @@ resources 'bugtracker' => 'https://github.com/michal-josef-spacek/Map-Tube-Text-
 resources 'homepage' => 'https://github.com/michal-josef-spacek/Map-Tube-Text-Shortest';
 resources 'repository' => 'git://github.com/michal-josef-spacek/Map-Tube-Text-Shortest';
 test_requires 'English' => 0;
+test_requires 'Error::Pure::Utils' => 0;
+test_requires 'Map::Tube::Prague' => 0;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;
