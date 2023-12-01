@@ -7,6 +7,12 @@ use inc::Module::Install;
 # Definition.
 abstract 'Shortest route information via Map::Tube object.';
 author 'Michal Josef Spacek <skim@cpan.org>';
+author_requires 'English' => 0;
+author_requires 'File::Object' => 0.08;
+author_requires 'Test::More' => 0;
+author_requires 'Test::NoWarnings' => 0;
+author_requires 'Test::Pod' => 0;
+author_requires 'Test::Pod::Coverage' => 0;
 license 'bsd';
 license 'artistic_2';
 name 'Map-Tube-Text-Shortest';
@@ -20,11 +26,8 @@ resources 'bugtracker' => 'https://github.com/michal-josef-spacek/Map-Tube-Text-
 resources 'homepage' => 'https://github.com/michal-josef-spacek/Map-Tube-Text-Shortest';
 resources 'repository' => 'git://github.com/michal-josef-spacek/Map-Tube-Text-Shortest';
 test_requires 'English' => 0;
-test_requires 'File::Object' => 0.08;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
-test_requires 'Test::Pod' => 0;
-test_requires 'Test::Pod::Coverage' => 0;
 tests_recursive;
 version '0.02';
 
