@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use English;
 use Encode qw(decode_utf8 encode_utf8);
 use Error::Pure qw(err);

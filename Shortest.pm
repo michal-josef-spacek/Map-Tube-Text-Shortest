@@ -1,10 +1,8 @@
 package Map::Tube::Text::Shortest;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Class::Utils qw(set_params);
 use Error::Pure qw(err);
 use List::Util qw(reduce);
@@ -15,7 +13,6 @@ use Scalar::Util qw(blessed);
 Readonly::Scalar our $DOUBLE_SPACE => q{  };
 Readonly::Scalar our $EMPTY_STR => q{};
 
-# Version.
 our $VERSION = 0.02;
 
 # Constructor.
@@ -138,11 +135,9 @@ Map::Tube::Text::Shortest - Shortest route information via Map::Tube object.
 
 =head1 EXAMPLE
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use English;
  use Encode qw(decode_utf8 encode_utf8);
  use Error::Pure qw(err);
