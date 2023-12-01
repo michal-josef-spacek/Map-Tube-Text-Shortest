@@ -1,5 +1,4 @@
 0.02
- - Add .travis.yml file.
  - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
  - Fix doc formatting.
  - Rewrite SEE ALSO section to new style.
