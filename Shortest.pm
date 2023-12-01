@@ -99,6 +99,7 @@ Map::Tube::Text::Shortest - Shortest route information via Map::Tube object.
 =head1 SYNOPSIS
 
  use Map::Tube::Test::Shortest;
+
  my $obj = Map::Tube::Text::Shortest->new;
  print $obj->print($from, $to);
 

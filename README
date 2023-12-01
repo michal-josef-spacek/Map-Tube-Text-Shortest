@@ -4,6 +4,7 @@ NAME
 
 SYNOPSIS
      use Map::Tube::Test::Shortest;
+
      my $obj = Map::Tube::Text::Shortest->new;
      print $obj->print($from, $to);
 
