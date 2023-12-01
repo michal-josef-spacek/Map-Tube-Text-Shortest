@@ -232,7 +232,7 @@ Install the Map::Tube concrete metro modules.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Map-Tube-Text-Shortest>
+L<https://github.com/michal-josef-spacek/Map-Tube-Text-Shortest>
 
 =head1 AUTHOR
 
