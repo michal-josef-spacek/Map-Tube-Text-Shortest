@@ -141,6 +141,8 @@ Returns string with table.
 
 =head1 EXAMPLE
 
+=for comment filename=print_shortest.pl
+
  use strict;
  use warnings;
 
