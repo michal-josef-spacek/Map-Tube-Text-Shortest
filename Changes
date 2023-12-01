@@ -3,6 +3,7 @@
  - Fix doc formatting.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Improve SYNOPSIS section in doc.
+ - Move bugtracker to github.
  - Rewrite SEE ALSO section to new style.
  - Update Module::Install to 1.21 version.
  - Update author github username.
