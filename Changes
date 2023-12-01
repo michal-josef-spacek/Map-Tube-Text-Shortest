@@ -1,6 +1,7 @@
 0.02
  - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
  - Fix doc formatting.
+ - Improve LICENSE AND COPYRIGHT section in doc.
  - Rewrite SEE ALSO section to new style.
  - Update Module::Install to 1.21 version.
  - Update author github username.
